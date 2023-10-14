@@ -6,37 +6,12 @@ import four from './image/four.png'
 import i from './image/i.png'
 import f from './image/f.png'
 import m from './image/m.png'
-
+import React from 'react';
+import Footer from "./footer";
 function Header() {
   return (
     <>
-          
-
       <section className="he"> 
-        <div className="head">
-          <img
-            className="img"
-            src="https://qahwablk.com/wp-content/uploads/2022/10/Qahwa-BLK.webp"
-            alt="logo"
-          ></img>
-    
-          <div className="circle"></div>
-          <ul>
-            <li>
-              <a href="#">HOME</a>
-            </li>
-            <li>
-              <a href="MENU">MENU</a>
-            </li>
-            <li>
-              <a href="LINK">LINK</a>
-            </li>
-            <li>
-              <a href="LINK">LINK</a>
-            </li>
-          </ul>
-         
-        </div>
         <div className="circle"></div>
         <div className="content">
         <div className="textBox">
@@ -65,10 +40,8 @@ function Header() {
       </ul>
 <br>
 </br>
-
-
       </section>
-      
+      <Footer></Footer>
     </>
     
   );

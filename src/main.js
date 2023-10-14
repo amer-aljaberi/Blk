@@ -2,6 +2,7 @@
 import './main.css';
 import React from 'react';
 import data from './data.json'
+import Footer from './footer';
 
 function Main(){
     const cardStyle = {
@@ -35,7 +36,7 @@ function Main(){
         
       ))}
       </div>
-    
+      <Footer></Footer>
         </>
     )
 }
