@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import Main from './main.js'
 import Nav from './nav'
-import Footer from './footer';
+
 
 
 
@@ -27,6 +27,7 @@ function App() {
         
           </div>
       </BrowserRouter>  
+      
 
 
       

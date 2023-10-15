@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./header.css";
+import './nav.css'
 
 
 function Nav(){
@@ -21,18 +21,10 @@ function Nav(){
               <Link to="/main">MENU</Link>
             </li>
             <li >
-              <a href="/">footer</a>
-            </li>
-            <li  >
-              <a href="LINK">LINK</a>
+              <a href="/">About</a>
             </li>
           </ul>
-
-          
-        </div>
-  
-       
-
+        </div>      
     )
 }
 
